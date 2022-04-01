@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #D6DFCC;
+}
+.column-div{
+    margin: 30px auto 30px auto;
+    display: flex;
+
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    gap: 30px;
+    /* align-items: center; */
+    background-color: #FFF5ED;
+}
+
+
+.column-div .item {
+    flex: 0 0 250px;
+    /* width: max-content; */
+    max-width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    /* width: 20%; */
+    height: 400px;
+    /* align-items: flex-end; */
+    /* it will add with to the flex items */
+    /* flex-basis: 250px;  */
+    /* flex-grow: ; */
+    gap: 25px;
+    /* justify-self: center; */
+    /* margin: 10px; */
+    background-color: inherit;
+
+}
+
+p{
+    padding: 10px;
+    /* line-height: 1.5; */
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}

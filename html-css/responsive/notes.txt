@@ -1,0 +1,4 @@
+In this tutorial when designing a responsive web.
+It would be better if we first focus structuring the layout in html then try to work on background colors, fonts
+Then try to analyze the given design if you need to use flex or grid.
+After that try to add complexity of the layout by using media query 

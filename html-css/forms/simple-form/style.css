@@ -49,8 +49,11 @@ header{
 .input-field{
     height: 2rem;
     border: 0.1rem solid black;
-    border-radius: 1rem;
-    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    /* text-align: left; */
+    
 }
 
 label{
