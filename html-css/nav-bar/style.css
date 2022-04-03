@@ -42,7 +42,7 @@ header{
 
 
 .icon{
-    width: 50%;
+    width: 30%;
     text-align: center;
     align-self: center;
     font-size: 3rem;
@@ -72,6 +72,24 @@ nav{
 .nav-item{
     padding: 2px;
     list-style: none;
+}
+
+.ham{
+    position: absolute;
+    float: right;
+    right: 10%;
+    /* width: auto; */
+    align-self: center;
+    /* display: fixed; */
+}
+i{
+
+    /* height: 20rem; */
+    margin: auto 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 800px)
