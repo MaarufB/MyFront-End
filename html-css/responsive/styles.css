@@ -1,7 +1,7 @@
 :root {
     --clr-primary-200: #f3eed9;
     --clr-primary-400: #824936;
-  
+
     --clr-neutral-100: #fff;
     --clr-neutral-900: #222c2a;
   
@@ -56,6 +56,7 @@ img{
 
 .text-center{
     text-align: center;
+    /* width: clamp(); */
 }
 
 header, section{
@@ -68,7 +69,6 @@ header, section{
         padding: 7rem 0;
     }
 }
-
 
 .container{
     margin-inline: auto;
