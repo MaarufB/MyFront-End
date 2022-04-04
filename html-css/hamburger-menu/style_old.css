@@ -10,35 +10,26 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.ham{
+    display: none;
+}
 
 nav{
-    /* new_modefied */
-    border: 2px solid red;
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    gap:10%;
     background-color: #0082e6;
     height: 80px;
     width: 100%;
 }
 
 label.logo{
-    border: 2px solid green;
     color: white;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-    /* width: 10%; */
 }
 
 nav ul{
-    border: 2px solid black;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    /* float: right; */
+    float: right;
     margin-right: 20px;
 }
 
@@ -61,22 +52,12 @@ a.active, a.active:hover{
     transition: .5s;
 }
 
-
-.container{
-    border: 2px solid red;
-}
-.ham{
-    display: none;
-    border: 2px solid black;
-} 
-
 .checkbtn{
     font-size: 30px;
     color: white;
     float: right;
-    /* margin: auto; */
     line-height: 80px;
-    margin-right: auto 40px;
+    margin-right: 40px;
 }
 
 #check{
