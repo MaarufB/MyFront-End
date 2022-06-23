@@ -1,0 +1,11 @@
+# for flexbox
+https://css-tricks.com/turning-a-fixed-size-object-into-a-responsive-element/
+
+# for css resources
+https://dev.to/j471n/10-css-resources-that-you-should-bookmark-46l6
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax
+https://chenhuijing.com/blog/flexbox-and-absolute-positioning/
+
+
+https://css-tricks.com/designing-a-product-page-layout-with-flexbox/
